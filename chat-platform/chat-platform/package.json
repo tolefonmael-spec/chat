@@ -1,0 +1,19 @@
+{
+  "name": "chat-platform",
+  "version": "2.0.0",
+  "description": "Plateforme de chat en temps réel - Version optimisée",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "bcryptjs": "^2.4.3",
+    "express-rate-limit": "^6.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
